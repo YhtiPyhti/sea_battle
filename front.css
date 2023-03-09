@@ -1,0 +1,57 @@
+html, body {
+  font-family: "Tahoma", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #164a44;
+  background-color: #b2d9d0;
+}
+
+
+table {
+	width: 10*50px;
+	height: 10*50px;
+	position: static;
+}
+
+/*Кнопка отрисовки по центру*/
+.divDraw{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px auto;
+}
+
+.button_draw{
+  position: absolute;
+  top:50%;
+  background-color:#5DCEC6;
+  color:#227c8d;
+  border:none;
+  border-radius:10px;
+  box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+}
+
+.button_draw:hover {
+  background-color:#002ead;
+  transition: 0.5s;
+}
+
+.button_bout{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #888;
+	padding: 19px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+.button_bout:hover {
+  background-color: yellow;
+  transition: 0.5s;
+}
+
+.button_bout:hover:after {
+	position: absolute;
+	border: 3px solid orange;
+}
